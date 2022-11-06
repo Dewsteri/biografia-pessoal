@@ -1,0 +1,144 @@
+/**família de fontes: 'BioRhyme', serifa;
+família de fontes: 'Montserrat', sem serifa;
+família de fontes: 'Tajawal', sem serifa;**/
+
+
+
+/*---------secçao Tags----------*/
+body{
+    margin: 0;
+    text-align: center;
+    
+    color: #40514e;
+    
+}
+h1{
+    font-family: 'Charmonman', serif;
+    line-height: 2;
+    font-size: 300%;
+    margin-top: auto;
+    color: #66bfbf;
+    
+   
+}
+h2,h3{
+    font-family: 'BioRhyme', sans-serif;
+    color: #66bfbf;
+    font-size: 150%;
+    
+    
+    
+}
+header{
+    background-color: #14274e;
+    
+}
+p{
+    line-height: 2; /**Dobrar o tamanho da linha*/
+}
+hr{
+    border: dotted #000 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto ;
+}
+a{
+    font-family:'Times New Roman', Times, serif;
+    color: #11999e;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: aliceblue;
+}
+
+/*--------classes-----------*/
+
+.top-container{
+    background-color: #14274e;
+    position: relative;
+    padding-top: 100px;
+    
+    
+}
+.middlie-container{
+    margin: 100px auto;
+}
+.bottom-container{
+    background-color: #14274e;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.celebro-tech-cima {
+    position: absolute;
+    right: 20%;
+    top: 50px;
+}
+.celebro-tech-baixo {
+    position: absolute;
+    bottom: 1%;
+    right: 70%;
+    top: 75%;
+}
+.efeito{
+    color: #66bfbf;
+    font-size: 250%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 20px auto;
+    text-align: left;   
+}
+.skill-rowl{
+    width: 50%;
+    margin: 100px auto 20px auto;
+    text-align: left;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chilli-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.contact-message{
+    width: 40%;
+    margin: 15px auto 40px ;
+    
+}   
+.copyright{
+    color: #ffffff;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
